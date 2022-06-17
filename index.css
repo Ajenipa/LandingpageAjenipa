@@ -7,6 +7,7 @@
 }
 body{
     background-color:hsl(193, 100%, 96%);
+    background: url('./images/bg-hero-mobile.svg');
     font-size: 18px;
     font-family: 'Open Sans';
 
@@ -58,7 +59,8 @@ main .text h3{
 main .text p{
     margin-top: 15px;
     margin-bottom: 15px;
-    font-family: 'Open Sans';
+    color: hsl(208, 11%, 55%);
+    font-family: 'Poppins';
     font-weight: 400;
 }
 main button{
@@ -75,15 +77,18 @@ main button{
     border-style: none;
 
 }
+
 main .box-1 img{
     height: 250px;
 }
+/** box-2 **/
 .box-2{
     background-color: white;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
 }
 main .box-2 img{
     background-color: white;
@@ -91,7 +96,10 @@ main .box-2 img{
 }
 main .box-2 h3{
     background-color: white;
-    height: 250px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 15px;
 }
 main .box-2 p{
     color: hsl(208, 11%, 55%);
@@ -99,9 +107,146 @@ main .box-2 p{
     font-weight: 400;
     margin-top: 3px;
 }
+/** Box-2 ends here **/
+/** box-3 **/
+.box-3{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
 main .box-3 img{
+    background-color: white;
     height: 250px;
+}
+main .box-3 h3{
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+main .box-3 p{
+    color: hsl(208, 11%, 55%);
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 3px;
+}
+/** Box-3 ends here **/
+/** box-4**/
+.box-4{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
 }
 main .box-4 img{
+    background-color: white;
     height: 250px;
 }
+main .box-4 h3{
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+main .box-4 p{
+    color: hsl(208, 11%, 55%);
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 3px;
+}
+/** Box-4 ends here **/
+
+main .pop-box{
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0px 0px 2px 2px #888888;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    z-index: -1;
+}
+main .pop-box h3{
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+main .pop-box button {
+    background-color: hsl(322, 100%, 66%);
+    width: 50%;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 45px;
+    border-style: none;
+
+}
+footer{
+    background-color: hwb(192 0% 82%);
+    color: hsl(193, 100%, 96%);
+}
+footer .footer-logo img{
+    width: 200px;
+    padding: 22px;
+    margin-left: 2px;
+
+}
+footer .loc{
+    display:flex;
+    padding: 22px;
+    margin-left: 2px;
+}
+footer .loc img{
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+footer .phone{
+    display:flex;
+    padding: 22px;
+    margin-left: 2px;
+}
+footer .phone img{
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+footer .email{
+    display:flex;
+    padding: 22px;
+    margin-left: 2px;
+}
+footer .email img{
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+footer .about{
+    padding: 22px;
+    margin-left: 2px;
+    line-height: 50px;
+}
+footer .about ul{
+    list-style: none;
+}
+footer .sub-about{
+    text-align: center;
+}
+footer  p{
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 90px;
+}
+
