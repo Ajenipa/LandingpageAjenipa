@@ -249,4 +249,36 @@ footer  p{
    padding-top: 40px;
    padding-bottom: 90px;
 }
+.fb{ 
+    border: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    padding : 5px;
+    margin-right: 13px;    
+}
+.tw{ 
+    border: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    padding : 5px;
+    margin-right: 13px;    
+}
+.ig{ 
+    border:solid;
+    border-width: 1px;
+    border-radius: 100%;
+    padding : 5px;
+    margin-right: 13px;    
+}
+.cr{
+    font-size: small;
+}
+.crc{
+    border:solid;
+    border-radius: 100%;
+    border-width: 1px;
+    padding : 5px;
+    margin-right: 13px;
+    font-size: 7px;
+}
 
