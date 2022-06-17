@@ -143,6 +143,7 @@ main .box-3 p{
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
+    margin-bottom: 200px;
 }
 main .box-4 img{
     background-color: white;
@@ -166,17 +167,21 @@ main .box-4 p{
 main .pop-box{
     background-color: white;
     border-radius: 13px;
-    box-shadow: 0px 0px 2px 2px #888888;
+    box-shadow: 0px 0px 1px 1px hsl(193, 100%, 96%);
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
     align-items: center;
-    z-index: -1;
+    position: absolute;
+    margin-top: -140px;
+    margin-right: 14px;
+
 }
 main .pop-box h3{
     width: 100%;
     font-family: 'Poppins';
     font-weight: 600;
+    
 }
 main .pop-box button {
     background-color: hsl(322, 100%, 66%);
@@ -194,8 +199,11 @@ main .pop-box button {
 
 }
 footer{
-    background-color: hwb(192 0% 82%);
+    background-color: rgb(0, 37, 46);
+   
+    padding-top: 100px;
     color: hsl(193, 100%, 96%);
+    margin:-20px;
 }
 footer .footer-logo img{
     width: 200px;
