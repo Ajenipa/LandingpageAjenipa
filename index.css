@@ -437,22 +437,39 @@ footer  p{
     }
     .footer {
         display:grid;
-        grid-template-areas: 'footer-section-1 footer-section-2 footer-section-3 footer-section-4 sub-about';
+        grid-template-areas: 'footer-section-1 footer-section-2 footer-section-3 sub-about';
     }
     footer .footer-section-1{
         grid-area: footer-section-1;
+      
     }
     footer .footer-section-2{
         grid-area: footer-section-2;
+      
     }
-    footer .footer-section-2{
+    footer .footer-section-3{
         grid-area: footer-section-3;
-    }
-    footer .footer-section-4{
-        grid-area: footer-section-4;
+        
     }
     footer .sub-about{
         grid-area: sub-about;
+        padding-left: 20px;
+        padding-right: 100px;
+       
+    }
+    .footer ul{
+        display:flex;
+        padding-left: 20px;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .footer p{
+      padding-bottom: 202px;
+      padding-top: 250px;
+      padding-left: 45px;
+      padding-right: 56px;
+      margin-left: 30px;
+      margin-right: -100px;
     }
 
 }
