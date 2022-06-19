@@ -25,15 +25,15 @@ header button{
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 2px 2px;;
+    width: 100%;
     border-style: none;
-    box-shadow: 0 2px 2px 2px grey;
     color: black;
-    font-weight: 600;
-    font-size: medium;
+    font-weight: bold;
     border-radius: 25px;
+    margin-left: 80px;
     cursor: pointer;
 }
 .header{
