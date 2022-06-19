@@ -25,14 +25,15 @@ header button{
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
     border-style: none;
+    box-shadow: 0 2px 2px 2px grey;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: medium;
     border-radius: 25px;
-    margin-left: 80px;
     cursor: pointer;
 }
 .header{
@@ -173,14 +174,14 @@ main .box-4 p{
 main .pop-box{
     background-color: white;
     border-radius: 13px;
-    box-shadow: 0px 0px 1px 1px hsl(193, 100%, 96%);
+    box-shadow: 0px 2px 2px 2px grey;
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
     align-items: center;
     position: absolute;
     margin-top: -140px;
-    margin-right: 14px;
+    margin-right: 4px;
 
 }
 main .pop-box h3{
@@ -299,6 +300,8 @@ footer  p{
 @media screen and (max-width:1440px) and (min-width:376px){
     body{
         background: url('./images/bg-hero-desktop.svg');
+        width:100%;
+        margin: auto;
     }
     header img{
         margin-left: 40px;
@@ -434,6 +437,16 @@ footer  p{
     /** box-4 ends */
     main .pop-box{
         margin-left: 450px;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    main .pop-box button{
+        align-items: center;
+        margin-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        width: 70%;
     }
     .footer {
         display:grid;
